@@ -18,6 +18,7 @@ namespace WebApi.Controllers
         [Route("api/[controller]")]
         public IActionResult GetEmployee()
         {
+            //Hämtar alla employee (Jsonformat)
             return Ok(_employeeDataContext.GetEmployees());
         }
 
@@ -25,12 +26,16 @@ namespace WebApi.Controllers
         [Route("api/[controller]/{Id}")]
         public IActionResult GetEmployee(Guid Id)
         {
+            //Hämtar employee
             var employee = _employeeDataContext.GetEmployee(Id);
 
+            //Kollar om employee finns
             if (employee != null)
             {
+                //Employee finns(hämtar employee)
                 return Ok(employee);
             }
+            //Employee finns inte!, skickar messege plus Id
             return NotFound($"Not found employee: {Id}");
         }
 

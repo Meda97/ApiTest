@@ -5984,11 +5984,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krasn\\OneDrive\\Skrivbord\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\KYH\\WebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\krasn\\OneDrive\\Skrivbord\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\KYH\\WebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\krasn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krasn\\OneDrive\\Skrivbord\\WebApi\\WebApi\\obj\\",
+      "outputPath": "C:\\KYH\\WebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\krasn\\AppData\\Roaming\\NuGet\\NuGet.Config",
